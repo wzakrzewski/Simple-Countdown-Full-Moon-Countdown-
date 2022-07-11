@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./img/guzman-barquin-Qd688l1yDOI-unsplash.jpg);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.containter {
+    color: #fff;
+    display: flex;   
+    
+}
+
+.h1_text {
+    margin-top: 3vh;
+    color: #fff;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 5rem;
+    margin: 0 1rem;
+}
+
+.countdown-element {
+    text-align: center;
+}
+
+.countdown-element span {
+    font-size: 0.9rem;
+}
